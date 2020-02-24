@@ -34,9 +34,5 @@
 
     <div class="container">
 
-        <div class="blog-header">
-            <h1 class="blog-title text-primary">Create basic theme WordPress</h1>
-
-        </div>
 
         <div class="row">

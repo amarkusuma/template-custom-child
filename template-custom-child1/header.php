@@ -35,7 +35,6 @@
     <div class="container">
 
         <div class="blog-header">
-            <h1 class="blog-title text-danger">Theme Child 1</h1>
             <?php if (of_get_option('example_textarea')) { ?>
                 <p><?php echo of_get_option('example_textarea') ?></p>
             <?php } ?>

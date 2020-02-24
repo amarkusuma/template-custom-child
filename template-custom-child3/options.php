@@ -59,14 +59,6 @@ function optionsframework_options()
 	);
 
 
-	// $options[] = array(
-	// 	'name' => __('Input Checkbox', 'theme-textdomain'),
-	// 	'desc' => __('Example checkbox, defaults to true.', 'theme-textdomain'),
-	// 	'id' => 'example_checkbox',
-	// 	'std' => '1',
-	// 	'type' => 'checkbox'
-	// );
-
 	$options[] = array(
 		'name' => __('Input Radio (one)', 'theme-textdomain'),
 		'desc' => __('Radio select with default options "one".', 'theme-textdomain'),

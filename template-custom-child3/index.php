@@ -1,9 +1,3 @@
-<?php if (of_get_option('example_radio') == 'maintenance') {
-    $location = get_site_url() . "/maintenance";
-    wp_redirect($location, 301);
-    exit;
-}
-?>
 <?php get_header(); ?>
 
 <div class="col-sm-8 blog-main">

@@ -22,9 +22,6 @@ function optionsframework_options()
 {
 
 
-
-
-	// Pull all the categories into an array
 	$options_categories = array();
 	$options_categories_obj = get_categories();
 	foreach ($options_categories_obj as $category) {
@@ -47,8 +44,6 @@ function optionsframework_options()
 		$options_pages[$page->ID] = $page->post_title;
 	}
 
-	// If using image radio buttons, define a directory path
-	$imagepath =  get_template_directory_uri() . '/images/';
 
 	$options = array();
 

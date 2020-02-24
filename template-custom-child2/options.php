@@ -44,8 +44,6 @@ function optionsframework_options()
 		$options_pages[$page->ID] = $page->post_title;
 	}
 
-	// If using image radio buttons, define a directory path
-	$imagepath =  get_template_directory_uri() . '/images/';
 
 	$options = array();
 
