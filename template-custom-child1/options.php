@@ -1,8 +1,5 @@
 <?php
 
-/**
- * A unique identifier is defined to store the options in the database and reference them from the theme.
- */
 function optionsframework_option_name()
 {
 	// Change this to use your theme slug
