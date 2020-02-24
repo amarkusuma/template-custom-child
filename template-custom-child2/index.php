@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
 <div class="row ">
-    <!-- <?php if (of_get_option('limit_options')) {
-            } ?> -->
 
     <?php
     $limit = of_get_option('limit_options');
