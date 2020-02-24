@@ -1,0 +1,31 @@
+<?php if (of_get_option('example_radio') == 'maintenance') {
+    $location = get_site_url() . "/maintenance";
+    wp_redirect($location, 301);
+    exit;
+}
+?>
+<?php get_header(); ?>
+
+<div class="col-sm-8 blog-main">
+
+
+    <?php
+    if (have_posts()) {
+        while (have_posts()) : the_post();
+    ?>
+            <div class="blog-post">
+                <h2 class="blog-post-title"><?php the_title() ?></h2>
+                <p class="blog-post-meta"><?php the_date(); ?> by <?php the_author(); ?></p>
+                <?php the_content(); ?>
+            </div>
+
+    <?php
+        endwhile;
+    }
+    ?>
+
+    <?php get_sidebar(); ?>
+
+</div>
+
+<?php get_footer(); ?>

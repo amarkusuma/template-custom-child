@@ -1,0 +1,23 @@
+/*
+ Theme Name:   Wp Theme bootstrap Child 3
+ Theme URI:    http://localhost/wordpress
+ Description:  Wp Bootstrap Child Theme
+ Author:       Amar
+ Author URI:   http://localhost
+ Template:     template-custom
+ Text Domain:  wp_Theme_wordpress_child
+*/
+
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #8b1717;
+    border-top: 1px solid #e5e5e5;
+}
+
+.blog-masthead {
+    background-color: #b31414;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+}
